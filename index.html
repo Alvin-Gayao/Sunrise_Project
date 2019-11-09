@@ -14,7 +14,6 @@
   <style type="text/css">
     #header {
       height: 100vh;
-      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
@@ -22,16 +21,16 @@
     }
     @keyframes animate {
       0%,100% {
-        background-image: url(img/cover.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cover.jpg);
     }
       25% {
-        background-image: url(img/cover1.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cover1.jpg);
     }
       50% {
-        background-image: url(img/cover2.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cover2.jpg);
     }
       75% {
-        background-image: url(img/cover3.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cover3.jpg);
     }
   }
   </style>
@@ -39,14 +38,14 @@
   <header id="header">
     <div class="container text-center">
       <div class="user-box">
-        <img src="img/logo.png">
+        <img src="images/logo.png">
         <h1>Studio</h1>
         <p>Photography & Videography</p>
       </div>
     </div>
     <div class="nav-bar">
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
@@ -68,30 +67,6 @@
         </div>
       </nav>
     </div>
-
-    <!-----------gallery & services nav-images------->
-    <section>
-      <div class="navigation container" id="navigation">
-        <div class="row" >
-          <div class="col-sm-3 text-center">
-            <h6>Gallery</h6>
-            <a href="gallery.html"><img src="img/alpine.jpg" class="nav-img"></a>
-          </div>
-          <div class="col-sm-3 text-center">
-            <h6>Services</h6>
-            <a href="services.html"><img src="img/alpine.jpg" class="nav-img"></a>
-          </div>
-          <div class="col-sm-3 text-center">
-            <h6>Contacts</h6>
-            <a href="contact.html"><img src="img/alpine.jpg" class="nav-img"></a>
-          </div>
-          <div class="col-sm-3 text-center">
-            <h6>About Us</h6>
-            <a href="about.html"><img src="img/alpine.jpg" class="nav-img"></a>
-          </div>
-        </div>
-      </div>
-    </section>
   </header>
   <!----------------footer------------->
   <footer id="footer">
