@@ -172,12 +172,12 @@ body {
 	color: #fff;
 	font-family: arial black;
 }
+/*-------services---------*/
 #header table {
+	margin-left: 15px;
 	color:#fff;
 
 }
-
-
 #header h1{
 	color:#fff;
 }
