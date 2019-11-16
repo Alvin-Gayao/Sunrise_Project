@@ -17,7 +17,7 @@ body {
 /*------navigation---------*/
 .nav-bar {
 	font-family: arial black;
-	position: sticky;
+	
 	top: 0;
 	z-index: 2;
 }
@@ -172,10 +172,15 @@ body {
 	color: #fff;
 	font-family: arial black;
 }
+#header table {
+	color:#fff;
+
+}
 
 
-
-
+#header h1{
+	color:#fff;
+}
 
 
 
