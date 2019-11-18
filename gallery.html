@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Gallery Page</title>
+	<title>Sunrise Studio Gallery Page</title>
 </head>
   <link rel="stylesheet" type="text/css" href="css/sunrise.css">
   <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
@@ -25,7 +25,7 @@
 <body>
 	<!-----------header section--------------->
   <header id="header">
-    <div class="nav-bar">
+    <div class="nav-bar text-center">
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,10 @@
                 <a class="nav-link" href="services.html">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">ABOUT US</a>
+                <a class="nav-link" href="about.html">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT US</a>
+                <a class="nav-link" href="#user-info">CONTACTS</a>
               </li>
             </ul>
         </div>
@@ -78,7 +78,7 @@
   </header>
   <!----------------footer contact------------->
   <footer id="user-info">
-    <div class="contact" id="contact">
+    <div class="contact">
       <div class="container text-center">
         <h2>Contact Us</h2>
         <p class="text-center">For Inquiry</p>
@@ -99,5 +99,11 @@
       </div>
     </div>
   </footer>
+
+  <!----------Smooth Scroll------------>
+  <script type="text/javascript" src="js/smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script> 
 </body>
 </html>
