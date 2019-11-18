@@ -38,7 +38,7 @@ body {
 	margin-right: 20%;
 }
 .nav-link1 {
-	color: green !important;
+	color: #98ff98 !important;
 	margin-left: 40px;
 	margin-right: 40px;
 	margin-top: -15px;
@@ -52,7 +52,7 @@ body {
 	font-size: 15px;
 }
 .nav-link:hover {
-	color: green !important;
+	color: #98ff98 !important;
 }
 /*-------services-----
 .services {
@@ -151,6 +151,7 @@ body {
 ----------------*/
 .gallery {
 	width: 80%;
+	max-height: 100%;
 	margin-top: 20px;
 	margin-left: 10%;
 	position: center;
